@@ -1,0 +1,19 @@
+body {
+    font-family: "Rubik",Sans-serif;
+}
+
+header {
+    color: white;
+    background-color: #3E5AFF;
+}
+
+
+p > strong, h2 strong {font-size: 1.2em;}
+
+p.featured:before {content: open-quote; }
+
+a.mylink {text-decoration:overline; background-color: green;}
+
+a[href*="tech"] {text-decoration:none;}
+
+#headline {margin:0px 10px;}
